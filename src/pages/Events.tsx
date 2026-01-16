@@ -1,6 +1,6 @@
 import React from 'react';
 import { EVENTS } from '../constants';
-import { Calendar, Clock, MapPin } from 'lucide-react';
+import { Clock, MapPin } from 'lucide-react';
 
 const Events: React.FC = () => {
   return (

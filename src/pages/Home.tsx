@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { SERVICES, TESTIMONIALS } from '../constants';
-import { ArrowRight, CheckCircle, Users, BookOpen, GraduationCap } from 'lucide-react';
-
+import { ArrowRight, CheckCircle, GraduationCap } from 'lucide-react';
 
 const Home: React.FC = () => {
   return (

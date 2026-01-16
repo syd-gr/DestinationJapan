@@ -1,4 +1,4 @@
-import { LucideIcon } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
 
 export interface NavItem {
   label: string;
@@ -19,15 +19,15 @@ export interface TeamMember {
   name: string;
   role: string;
   image: string;
-  bio?: string;
+  bio: string;
 }
 
 export interface Testimonial {
   id: string;
   name: string;
-  role: string; // e.g., Student, SSW Worker
+  role: string;
+  location: string;
   content: string;
-  location: string; // e.g., Tokyo, Osaka
 }
 
 export interface Event {
@@ -35,5 +35,5 @@ export interface Event {
   title: string;
   date: string;
   description: string;
-  type: 'Seminar' | 'Workshop' | 'Orientation';
+  type: string;
 }
