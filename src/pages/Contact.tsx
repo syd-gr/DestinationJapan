@@ -59,7 +59,8 @@ const Contact: React.FC = () => {
                   <div>
                     <h3 className="font-bold text-gray-800">Call Us</h3>
                     <p className="text-gray-600">{PHONE_NUMBER}</p>
-                    <p className="text-gray-600">+977-1-4XXXXXX (Reception)</p>
+                    <p className="text-gray-600">+977 98510 90450</p>
+                    <p className="text-gray-600">+977 98435 61314</p>
                   </div>
                 </div>
 
@@ -78,7 +79,7 @@ const Contact: React.FC = () => {
             {/* Google Map Placeholder */}
             <div className="w-full h-80 bg-gray-200 rounded-xl overflow-hidden shadow-lg border border-gray-300 relative">
                <iframe 
-                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.365392658826!2d85.3217!3d27.7062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb190a74aa1f23%3A0x74ebef82ad0e5c15!2sPutalisadak%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1695632123456!5m2!1sen!2snp" 
+                src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d220.71338571832058!2d85.31759271056696!3d27.735368619750098!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjfCsDQ0JzA3LjUiTiA4NcKwMTknMDMuNiJF!5e0!3m2!1sen!2sjp!4v1768551476975!5m2!1sen!2sjp"
                  width="100%" 
                  height="100%" 
                  style={{ border: 0 }} 
@@ -118,7 +119,7 @@ const Contact: React.FC = () => {
                         value={formData.name}
                         onChange={handleChange}
                         className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-secondary focus:border-transparent outline-none transition-all"
-                        placeholder="Ram Thapa"
+                        placeholder="Your Name"
                       />
                     </div>
                     <div>

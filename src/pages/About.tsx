@@ -18,7 +18,7 @@ const About: React.FC = () => {
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-bold text-primary mb-6">Our Story</h2>
           <p className="text-gray-600 text-lg leading-relaxed">
-            Founded in 2010, NipponNepal EduLink started as a small language center in Kathmandu. Recognizing the gap in genuine consultancy services, we expanded our operations to provide holistic support for students and workers. Today, we are proud to be one of the most trusted educational consultancies in Nepal for Japan-related services.
+          Founded in October 2024, our educational consultancy marks the beginning of a new chapter in Nepal, building upon a solid foundation of experience and success in Japan. While we are a newly established consultancy in Nepal, our roots in Japan run deep, where we have been actively contributing to sectors such as human resources, work support, construction, and room support since 2016. Our diverse team includes talented individuals from Japan, Nepal, Sri Lanka, and Vietnam, working together across all departments to provide exceptional services. With over 500 full-time and part-time employees, we are a dynamic organization that values hard work, dedication, and a global perspective. We are passionate about bringing our extensive experience to Nepal and offering more than just educational consultancy services. Our mission is to not only guide students in their educational journeys but to also support them in their everyday lives. Whether you need help adapting to life in Japan, securing part-time job opportunities, or even finding full-time employment after graduation, we are here to support you every step of the way. At the heart of our work is a commitment to building meaningful futures. Let us help you navigate your lifestyle needs, find opportunities in Japan, and create a fulfilling career that will last a lifetime. We look forward to working together to shape your future.
           </p>
         </div>
 
@@ -57,12 +57,12 @@ const About: React.FC = () => {
         <div className="bg-white rounded-2xl p-8 md:p-12 shadow-xl border-l-8 border-secondary">
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="md:w-1/2">
-               <h2 className="text-3xl font-bold text-primary mb-6">Why Choose NipponNepal?</h2>
+               <h2 className="text-3xl font-bold text-primary mb-6">Why Choose DestinationJapan?</h2>
                <div className="space-y-4">
                  <div className="flex gap-4">
                    <span className="text-6xl font-bold text-gray-200">01</span>
                    <div>
-                     <h4 className="text-xl font-bold text-gray-800">Direct University Partnerships</h4>
+                     <h4 className="text-xl font-bold text-gray-800">Direct School Partnerships</h4>
                      <p className="text-gray-600">We deal directly with institutions, ensuring faster processing.</p>
                    </div>
                  </div>
@@ -70,7 +70,7 @@ const About: React.FC = () => {
                    <span className="text-6xl font-bold text-gray-200">02</span>
                    <div>
                      <h4 className="text-xl font-bold text-gray-800">High Visa Success Rate</h4>
-                     <p className="text-gray-600">Our meticulous documentation has led to a 98% approval rate.</p>
+                     <p className="text-gray-600">Our meticulous documentation has led to a 99.99% approval rate.</p>
                    </div>
                  </div>
                  <div className="flex gap-4">
@@ -83,7 +83,7 @@ const About: React.FC = () => {
                </div>
             </div>
             <div className="md:w-1/2">
-              <img src="https://picsum.photos/800/600?random=100" alt="Team meeting" className="rounded-lg shadow-lg" />
+              <img src="/img/about.jpg" alt="Team meeting" className="rounded-lg shadow-lg" />
             </div>
           </div>
         </div>

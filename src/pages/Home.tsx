@@ -11,7 +11,7 @@ const Home: React.FC = () => {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://picsum.photos/1920/1080?random=50" 
+            src="/img/hero-img.jpg" 
             alt="Japan Landscape" 
             className="w-full h-full object-cover"
           />
@@ -55,19 +55,19 @@ const Home: React.FC = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="text-center p-4 border-r last:border-r-0 border-gray-100">
             <div className="text-secondary font-bold text-4xl mb-2">10+</div>
-            <div className="text-gray-600 font-medium">Years Experience</div>
+            <div className="text-gray-600 font-medium">Years Experience in Japan</div>
           </div>
           <div className="text-center p-4 border-r last:border-r-0 border-gray-100">
-            <div className="text-primary font-bold text-4xl mb-2">2000+</div>
+            <div className="text-primary font-bold text-4xl mb-2">200+</div>
             <div className="text-gray-600 font-medium">Students Placed</div>
-          </div>
+          </div>  
           <div className="text-center p-4 border-r last:border-r-0 border-gray-100">
-            <div className="text-secondary font-bold text-4xl mb-2">98%</div>
+            <div className="text-secondary font-bold text-4xl mb-2">99%</div>
             <div className="text-gray-600 font-medium">Visa Success Rate</div>
           </div>
           <div className="text-center p-4">
-            <div className="text-primary font-bold text-4xl mb-2">50+</div>
-            <div className="text-gray-600 font-medium">University Partners</div>
+            <div className="text-primary font-bold text-4xl mb-2">10+</div>
+            <div className="text-gray-600 font-medium">School Partners</div>
           </div>
         </div>
       </section>
@@ -78,7 +78,7 @@ const Home: React.FC = () => {
           <div className="lg:w-1/2">
             <div className="relative">
               <img 
-                src="https://picsum.photos/600/600?random=99" 
+                src="/img/about.jpg" 
                 alt="Counseling" 
                 className="rounded-lg shadow-2xl z-10 relative w-full max-w-md mx-auto" 
               />
@@ -90,14 +90,14 @@ const Home: React.FC = () => {
             <h3 className="text-secondary font-bold tracking-wider uppercase mb-2">Who We Are</h3>
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">Bridging Dreams Between Nepal & Japan</h2>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Established with a vision to provide authentic and transparent educational consultancy services, NipponNepal EduLink has become a trusted name for students and job seekers. We don't just process visas; we build careers.
+              Established with a vision to provide authentic and transparent educational consultancy services, Destination Japanese Language Institue and Consultancy has become a trusted name for students and job seekers. We don't just process visas; we build careers.
             </p>
             <ul className="space-y-4 mb-8">
               {[
                 "Certified Educational Counselors",
-                "Direct Tie-ups with Top Japanese Universities",
-                "JLPT/NAT Preparation by Native Instructors",
-                "Complete Documentation Support"
+                "Complete Documentation Support",
+                "JLPT/NAT Preparation by Qualified Instructors",
+                "Direct Tie-ups with Top Japanese Language aschool"
               ].map((item, index) => (
                 <li key={index} className="flex items-center gap-3">
                   <CheckCircle className="text-secondary flex-shrink-0" size={20} />

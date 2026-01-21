@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
               <Phone size={14} className="text-secondary" /> {PHONE_NUMBER}
             </span>
             <span className="flex items-center gap-2">
-              <MapPin size={14} className="text-secondary" /> Putalisadak, Kathmandu
+              <MapPin size={14} className="text-secondary" />  Near City Square, Samakhusi, Kathmandu, Nepal
             </span>
           </div>
           <div className="flex gap-4">
@@ -57,9 +57,9 @@ const Navbar: React.FC = () => {
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-bold text-primary leading-none tracking-tight">
-                {APP_NAME.split(' ')[0]} <span className="text-secondary">EduLink</span>
+                {APP_NAME.split(' ')[0]} <span className="text-secondary">Language Institute and Consultancy</span>
               </span>
-              <span className="text-xs text-gray-500 font-medium tracking-widest">GATEWAY TO JAPAN</span>
+              <span className="text-xs text-gray-500 font-medium tracking-widest">We Support Your Dream</span>
             </div>
           </NavLink>
 
